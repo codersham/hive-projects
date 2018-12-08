@@ -1,5 +1,7 @@
 # Replace word within < > with actual information, before execution
 
+#!/usr/bin/env bash
+
 # Create the following table in mysql db
 sqoop eval \
 --connect jdbc:mysql://<ip address of mysql>/<mysql_db_name> \
